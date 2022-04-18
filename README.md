@@ -25,7 +25,17 @@ According to the total summary, the current variance of the suspension coils is 
 
 ## T-Tests on Suspension Coils
 
-Summary of analysis
+In order to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, we had to perform 4 separate T-Tests: the first for all lots, and then for the first, second, and third lots individually.
+
+![ttest_all_lots](https://user-images.githubusercontent.com/94088129/163826518-5d139155-da4f-4dd5-a5f6-361676cc57f0.png)
+
+![ttest_lot_1](https://user-images.githubusercontent.com/94088129/163826525-f9477d0a-149e-4283-b73d-862081845eb2.png)
+
+![ttest_lot_2](https://user-images.githubusercontent.com/94088129/163826536-c527b875-87ed-47d8-8754-60028279fe48.png)
+
+![ttest_lot_3](https://user-images.githubusercontent.com/94088129/163826578-01cbbbfb-dc03-4063-bae9-34331104ebd8.png)
+
+As you can see in the above images, the T-Tests performed for All Lots, Lot 1, and Lot 2 all came yielded a p-values larger than our significance level of 0.05 (0.06, 1, and 0.61, respectively), meaning these categories do not statistically differ from the population mean of 1,500 PSI.  Lot 3, on the other hand, returned a p-value of 0.04 which is smaller than our significance level of 0.05, meaning Lot 3's PSI is statistically different from the population mean.
 
 ## Study Design: MechaCar vs Competition
 
