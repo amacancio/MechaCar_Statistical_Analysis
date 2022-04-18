@@ -41,13 +41,14 @@ As you can see in the above images, the T-Tests performed for All Lots, Lot 1, a
 
 <ul>
     <li><b>The study:</b></li>
-        Answer
+        The following is a description of a study that can quantify how the MechaCar performs against the competition.
     <li><b>What metric or metrics are you going to test?</b><li>
-        Answer
+        The tested metrics will be cost, fuel efficiency, and safety rating.
     <li><b>What is the null hypothesis or alternative hypothesis?</b></li>
-        Answer
+        Null hypothesis: MechaCars have no significant difference in pricing, fuel efficiency, and safety rating in comparison to their competitors.
+        Alternative Hypothesis: MechaCars have a significant difference in pricing, fuel efficiency, and safety rating in comparison to their competitors.
     <li><b>What statistical test would you use to test the hypothesis? And why?</b></li>
-        Answer
+        The most effective method to test the null hypothesis is a multiple sample t-test in order to compare the means of the MechaCar versus the competitors.  Then one tailed t-tests would establish which means are greater or less.
     <li><b>What data is needed to run the statistical test?</b></li>
-        Answer
+        To run the statistical tests, we would need the means, standard deviations, and number of observations for pricing, fuel efficiency, and safety rating for both the MechaCars as well as the that of the competitors.
 </ul>
